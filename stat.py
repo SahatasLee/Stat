@@ -59,29 +59,35 @@ def median(data):
 
 # histogram
 
-plt.xlabel('Age')
+# plt.xlabel('Age')
 # plt.ylabel('Interval')
 # plt.title('Age')
-plt.hist(age, bins=10)
-plt.show()
+# plt.hist(age, bins=10)
+# plt.show()
 
-# fig, ax = plt.subplots(2)
+# fig, ax = plt.subplots(1, 2, sharey=True)
 
 # ax[0].set_title('Age (years)')
 # ax[0].hist(age)
+# ax[0].set_title('Age')
+# ax[0].set_xlabel('Age (years)')
+# ax[0].set_ylabel('Quality')
 
 # ax[1].set_title('Glucose')
 # ax[1].hist(glucose)
+# ax[1].set_xlabel('Glucose (mmol/L)')
 
 # plt.show()
 
 # box plot
-# fig, ax = plt.subplots(2)
+# fig, ax = plt.subplots(1, 2, sharey=True)
 # ax[0].set_title('Age')
 # ax[0].boxplot(age, vert=False)
+# ax[0].set_xlabel('Age (Year)')
 
 # ax[1].set_title('Glucose')
 # ax[1].boxplot(glucose, vert=False)
+# ax[1].set_xlabel('Glucose (mmol/L) ')
 
 # plt.show()
 
@@ -97,11 +103,12 @@ plt.show()
 
 # plt.show()
 
-# import stemgraphic
+import stemgraphic
 
-# fig, ax = stemgraphic.stem_graphic(df['Age'])
+fig, ax = stemgraphic.stem_graphic(df['Age'])
+plt.title('Age')
 
-# plt.show()
+plt.show()
 
 # scatter
 # fig, ax = plt.subplots(2)
@@ -111,5 +118,10 @@ plt.show()
 
 # ax[1].set_title('Glucose')
 # ax[1].scatter(x, y)
+
+# plt.xlabel('Age (Year)')
+# plt.ylabel('Glucose (mmol/L)')
+# plt.title('Age')
+# plt.scatter(x, y)
 
 # plt.show()
