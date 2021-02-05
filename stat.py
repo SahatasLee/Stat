@@ -25,32 +25,32 @@ def median(data):
     print(stc.median(data))
 
 # mean
-# age_mean = stc.mean(age)
-# print(age_mean)
+age_mean = stc.mean(age)
+print('Age mean : ' + str(age_mean))
 
-# glucose_mean = stc.mean(glucose)
-# print(glucose_mean)
+glucose_mean = stc.mean(glucose)
+print('Glucose mean : ' + str(glucose_mean))
 
 #mode
-# age_mode = stc.multimode(age)
-# print(age_mode)
+age_mode = stc.multimode(age)
+print('Age mode : ' + str(*age_mode))
 
-# glucose_mode = stc.mode(glucose)
-# print(glucose_mode)
+glucose_mode = stc.mode(glucose)
+print('Glucose mode : ' + str(glucose_mode))
 
 # median
-# age_median = stc.median(age)
-# print(age_median)
+age_median = stc.median(age)
+print('Age median : ' + str(age_median))
 
-# glucose_median = stc.median(glucose)
-# print(glucose_median)
+glucose_median = stc.median(glucose)
+print('Glucose median : ' + str(glucose_median))
 
 # Sample standard deviation
-# age_ssd = stc.stdev(age)
-# print(age_ssd)
+age_ssd = stc.stdev(age)
+print('Age sample standard deviatuon : ' + str(age_ssd))
 
-# glucose_ssd = stc.stdev(glucose)
-# print(glucose_ssd)
+glucose_ssd = stc.stdev(glucose)
+print('Glucose sample standard deviation : ' + str(glucose_ssd))
 
 
 # class my_plot:
@@ -103,12 +103,17 @@ def median(data):
 
 # plt.show()
 
-import stemgraphic
+# import stemgraphic
 
-fig, ax = stemgraphic.stem_graphic(df['Age'])
-plt.title('Age')
+# fig, ax = stemgraphic.stem_graphic(df['Age'])
+# plt.title('Age')
 
-plt.show()
+# plt.show()
+
+# fig, ax = stemgraphic.stem_graphic(df['Glucose'])
+# plt.title('Glucose')
+
+# plt.show()
 
 # scatter
 # fig, ax = plt.subplots(2)
@@ -121,7 +126,7 @@ plt.show()
 
 # plt.xlabel('Age (Year)')
 # plt.ylabel('Glucose (mmol/L)')
-# plt.title('Age')
+# plt.title('Diabetes')
 # plt.scatter(x, y)
 
 # plt.show()
