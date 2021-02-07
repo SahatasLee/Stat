@@ -24,26 +24,26 @@ def mode(data):
 def median(data):
     print(stc.median(data))
 
-# mean
-age_mean = stc.mean(age)
-print('Age mean : ' + str(age_mean))
+# # mean
+# age_mean = stc.mean(age)
+# print('Age mean : ' + str(age_mean))
 
-glucose_mean = stc.mean(glucose)
-print('Glucose mean : ' + str(glucose_mean))
+# glucose_mean = stc.mean(glucose)
+# print('Glucose mean : ' + str(glucose_mean))
 
-#mode
-age_mode = stc.multimode(age)
-print('Age mode : ' + str(*age_mode))
+# #mode
+# age_mode = stc.multimode(age)
+# print('Age mode : ' + str(*age_mode))
 
-glucose_mode = stc.mode(glucose)
-print('Glucose mode : ' + str(glucose_mode))
+# glucose_mode = stc.mode(glucose)
+# print('Glucose mode : ' + str(glucose_mode))
 
-# median
-age_median = stc.median(age)
-print('Age median : ' + str(age_median))
+# # median
+# age_median = stc.median(age)
+# print('Age median : ' + str(age_median))
 
-glucose_median = stc.median(glucose)
-print('Glucose median : ' + str(glucose_median))
+# glucose_median = stc.median(glucose)
+# print('Glucose median : ' + str(glucose_median))
 
 # Sample standard deviation
 age_ssd = stc.stdev(age)
