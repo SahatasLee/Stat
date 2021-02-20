@@ -15,14 +15,15 @@ age = x.to_list()
 glucose = y.to_list()
 bmi = z.to_list()
 
-def mean(data):
-    print(stc.mean(data))
+print(age)
+# def mean(data):
+#     print(stc.mean(data))
 
-def mode(data):
-    print(stc.multimode(data))
+# def mode(data):
+#     print(stc.multimode(data))
 
-def median(data):
-    print(stc.median(data))
+# def median(data):
+#     print(stc.median(data))
 
 # # mean
 # age_mean = stc.mean(age)
@@ -46,11 +47,11 @@ def median(data):
 # print('Glucose median : ' + str(glucose_median))
 
 # Sample standard deviation
-age_ssd = stc.stdev(age)
-print('Age sample standard deviatuon : ' + str(age_ssd))
+# age_ssd = stc.stdev(age)
+# print('Age sample standard deviatuon : ' + str(age_ssd))
 
-glucose_ssd = stc.stdev(glucose)
-print('Glucose sample standard deviation : ' + str(glucose_ssd))
+# glucose_ssd = stc.stdev(glucose)
+# print('Glucose sample standard deviation : ' + str(glucose_ssd))
 
 
 # class my_plot:
