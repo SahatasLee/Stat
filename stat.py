@@ -53,10 +53,6 @@ glucose_ssd = stc.stdev(glucose)
 print('Glucose sample standard deviation : ' + str(glucose_ssd))
 
 
-# class my_plot:
-
-#     def hist()
-
 # histogram
 
 # plt.xlabel('Age')
