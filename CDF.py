@@ -31,7 +31,7 @@ data2.sort()
 # https://stackoverflow.com/questions/24788200/calculate-the-cumulative-distribution-function-cdf-in-python
 
 p = 1. * np.arange(len(data)) / (len(data) - 1)
-p2 = 1. * np.arange(len(data2)) / (len(data) - 1)
+p2 = 1. * np.arange(len(data2)) / (len(data2) - 1)
 
 fig, ax = plt.subplots(1, 2)
 fig.suptitle('Cumulative Probability Function')
